@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #6a76f8;
+    /* overflow-x: hidden; */
+}
+
+#header {
+    position: relative;
+    display: flex;
+    width: 100%;
+    /* padding: 50px 200px; */
+    height: 8vh;
+    /* overflow: hidden; */
+    /* position: fixed; */
+    align-items: center;
+    justify-content: space-between;
+    background-color: #36344D;
+    /* color: #C3C2CA; */
+}
+
+.nav-list {
+    /* position: absolute; */
+    display: flex;
+    margin-right: 4%;
+    gap: 30px;
+}
+
+.frame {
+    width: 40px;
+}
+
+.vec {
+    width: 27px;
+}
+
+.vec1 {
+    width: 27px;
+}
+
+.vec2 {
+    width: 27px;
+}
+
+.vec3 {
+    width: 27px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+
+}
+
+span {
+    color: white;
+}
+
+.hos {
+    width: 28px;
+    cursor: pointer;
+}
+
+.links a {
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.Namelinks {
+    position: absolute;
+    left: 11%;
+}
+
+.Namelinks ul {
+
+    display: flex;
+    margin-left: 9%;
+    gap: 50px;
+    align-items: center;
+}
+
+.Namelinks a {
+    color: #C3C2CA;
+
+}
+
+.Namelinks a:hover {
+    color: #ffffff;
+    
+    /* text-decoration: underline; */
+}
+
+.links a {
+    color: #C3C2CA;
+}
+
+.left {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 92vh;
+    /* margin-top: 0px; */
+    padding-left: 70px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 40px;
+    font-weight: 500;
+
+}
+
+.left a:hover {
+    color: #673DE6;
+}
+
+.account {
+    position: absolute;
+    top: 80px;
+}
+
+.account a {
+    display: flex;
+    gap: 20px;
+    color: #727586;
+}
+
+.security {
+    position: absolute;
+    top: 130px;
+}
+
+.security a {
+    display: flex;
+    gap: 20px;
+    color: #727586;
+}
+
+.Sharing {
+    position: absolute;
+    top: 180px;
+}
+
+.Sharing a {
+    display: flex;
+    gap: 15px;
+    color: #727586;
+}
+
+.Activity {
+    position: absolute;
+    top: 230px;
+}
+
+.Activity a {
+    display: flex;
+    gap: 20px;
+    color: #727586;
+}
+
+.Feedback {
+    position: absolute;
+    top: 645px;
+}
+
+.Feedback a {
+    display: flex;
+    gap: 20px;
+    color: #727586;
+
+}
+
+
+.acc {
+    width: 17px;
+}
+
+.sec {
+    width: 17px;
+}
+
+.sha {
+    width: 24px;
+}
+
+.act {
+    width: 17px;
+}
+
+section {
+
+    background-color: #F4F5FF;
+    padding-left: 400px;
+    /* z-index: 1; */
+    height: 92vh;
+
+}
+
+.right {
+    /* background-color: #6a76f8; */
+    /* border: 2px solid black; */
+    max-width: 75%;
+    height: 92vh;
+    margin-left: 160px;
+    /* margin-top: 40px; */
+}
+
+.add {
+    display: flex;
+    gap: 350px;
+    /* position: absolute; */
+    /* padding-left: 500px;
+    padding-top: 80px; */
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding-top: 50px;
+}
+
+
+
+
+.Enter {
+    margin-top: 25px;
+    background-color: white;
+    border: 1px solid rgb(213, 213, 213);
+    width: 100%;
+    /* height: 4vh; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 28px;
+    display: flex;
+    gap: 15px;
+    border-radius: 8px;
+}
+
+.mark {
+    width: 23px;
+}
+
+.scan {
+    margin-top: 15px;
+    background-color: white;
+    border: 1px solid rgb(213, 213, 213);
+    width: 100%;
+    /* height: 4vh; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 28px;
+    display: flex;
+    gap: 15px;
+    border-radius: 8px;
+}
+
+.save {
+    margin-top: 15px;
+    background-color: white;
+    border: 1px solid rgb(213, 213, 213);
+    width: 100%;
+    /* height: 4vh; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 28px;
+    display: flex;
+    gap: 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+.codes {
+    /* margin-top: 25px; */
+    background-color: white;
+    /* border:  solid rgb(213, 213, 213); */
+    border-style: solid;
+    border-color: rgb(213, 213, 213);
+    border-top: 0px;
+    width: 100%;
+    height: 34vh;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 28px;
+    /* display: flex; */
+    gap: 15px;
+    /* border-radius: 8px 8px 0 0; */
+}
+
+.finish {
+    /* margin-top: 0; */
+    background-color: white;
+    /* border: 1px solid rgb(213, 213, 213); */
+    border-style: solid;
+    border-color: rgb(213, 213, 213);
+    border-top: 0px;
+    width: 100%;
+    height: 9vh;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 28px;
+    display: flex;
+    gap: 15px;
+    border-radius: 0 0 8px 8px;
+}
+
+.set {
+    margin-left: 80%;
+    width: 145px;
+    border-radius: 6px;
+    background-color: #673DE6;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#you {
+
+    color: rgb(158, 158, 158);
+    font-size: 0.9rem;
+}
+
+.code {
+    display: flex;
+    padding: 20px 45px;
+    justify-content: space-between;
+    margin-top: 15px;
+    background-color: #FAFBFF;
+    height: 15vh;
+    width: 97%;
+    color: #727586;
+
+    /* border: 2px solid blue; */
+}
+
+.butt {
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.download {
+    color: #673DE6;
+    background-color: white;
+    width: 19vh;
+    height: 6vh;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.download:hover {
+    background-color: #673DE6;
+    color: #ffffff;
+}
+
+.print:hover {
+    background-color: #673DE6;
+    color: #ffffff;
+}
+
+.print {
+    color: #673DE6;
+    background-color: white;
+    width: 13vh;
+    height: 6vh;
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.mess {
+    width: 47px;
+    margin-left: 105%;
+    cursor: pointer;
+}
